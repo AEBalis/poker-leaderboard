@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Poker Leaderboard</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div id="wrapper">
+    <div id="background">
+      <header id="header">
+        <h1>2029 po-<em><u>KER</u></em></h1>
+        <div id="menu-btn">+</div>
+        <div id="add-player-menu-btn">+</div>
+      </header>
+
+      <div id="menu">
+        <button class="menu-item-btn" id="add-player">Add Player</button>
+        <button class="menu-item-btn" id="update-totals">Update Totals</button>
+      </div>
+      <div id="add-player-menu">
+        <h1>Add Player</h1>
+        <form id="add-player-form">
+          <label for="Name" class="title-label">Name</label><br>
+          <input type="text" id="name" class="form-input" placeholder="..."><br>
+          <label for="Buyins" class="title-label">Buyins</label><br>
+          <input type="text" id="buyins" class="form-input" placeholder="..."><br>
+          <label for="Net Chips" class="title-label">Net Chips</label><br>
+          <input type="number" id="net-chips" class="form-input" placeholder="..."><br>
+          <div class="submit-container">
+            <input type="submit" value="ADD" class="form-input" id="submit">
+          </div>
+        </form>
+      </div>
+      <div id="update-totals-menu">
+
+      </div>
+      <div id="card-main">
+        <h1>Leaderboard <span class="sm-text">🍆</span></h1>
+        <table id="leaderboard">
+
+
+
+          <tr>
+            <td>Rank</td>
+            <td>Player</th>
+            <td>Buy-ins</td>
+            <td>Net chips</td>
+            <td>Earnings</td>
+            <td>x</td>
+          </tr>
+          <tr>
+            <td>
+              <div id="medal-1">1</div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div id="medal-2">2</div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div id="medal-3">3</div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div id="medal-4">4</div>
+            </td>
+          </tr>
+
+
+        </table>
+      </div>
+    </div>
+  </div>
+  <script src="js.js"></script>
+</body>
+
+</html>

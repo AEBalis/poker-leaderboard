@@ -1,0 +1,220 @@
+body{
+  margin:0;
+  padding:0;
+  font-family: 'Jost', sans-serif;
+  font-size:18px;
+}
+
+#wrapper{
+  height:100vh;
+  overflow:scroll;  
+  
+  
+}
+
+
+h1{
+  font-size:50px;
+  padding:0;
+  margin:10px;
+}
+
+table,td,tr,td{
+  border:1px solid white;
+  border-collapse:collapse;
+  padding:20px;
+}
+
+#background{
+  position:relative;
+  height:100vh;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(255,255,255,0.1)),
+  url(poker.jpg);
+  ;
+  
+  
+ 
+}
+
+#header{
+  text-align:center;
+}
+
+#header > h1{
+  margin:0 auto;
+  font-family: 'Roboto Slab', serif;
+  color:rgb(92, 37, 55);
+  font-size:132px;
+  text-shadow:1px 1px 2px black;
+}
+
+#menu{
+  position:absolute;
+  top:0;
+  right:0;
+  height:100vh;
+  width:300px;
+  background-color:rgba(0, 0, 0, 0.6);
+  display:none;
+  padding-top:200px;
+  padding-left:25px;
+}
+
+.title-label{
+  margin:25px;
+}
+
+.form-input{
+  margin:25px;
+  width:200px;
+  height:30px;
+  border-radius:5px;
+}
+
+#submit{
+  font-size:22px;
+  color:rgb(10, 114, 71);
+  height:40px;
+  cursor:pointer;
+}
+
+#submit:hover{
+  background-color:rgb(197, 196, 196);
+}
+
+#add-player-menu{
+  position:absolute;
+  top:0;
+  right:0;
+  height:100vh;
+  width:300px;
+  background-color:rgba(255, 255, 255, 1);
+  display:none;
+  padding-top:200px;
+  padding-left:25px;
+  z-index:2;
+}
+
+
+
+#update-totals-menu{
+
+}
+
+#menu-btn{
+  position:absolute;
+  top:35px;
+  right:50px;
+  font-size:76px;
+  color:white;
+  cursor: pointer;
+  z-index:1;
+  transform-origin: center;
+  text-shadow: black  4px -3px 3px;
+}
+
+#add-player-menu-btn{
+  position:absolute;
+  top:35px;
+  right:50px;
+  font-size:76px;
+  color:black;
+  cursor: pointer;
+  z-index:3;
+  transform-origin: center;
+  text-shadow: grey 4px -3px 3px;
+  display:none;
+}
+
+.menu-item-btn{
+  display:block;
+  border-radius:5px;
+  width:200px;
+  margin:50px auto;
+  padding:10px;
+  font-family: 'Jost', sans-serif;
+  font-size: 16px;
+  cursor:pointer;
+  
+}
+
+.menu-item-btn:hover{
+  background-color:lightslategray;
+}
+
+#card-main{
+  text-align:center;
+  position:absolute;
+  top:220px;
+  left:50px;
+  border:2px solid white;
+  box-shadow: 3px 3px 2px 2px rgba(0, 0, 0, 0.4);
+  width:800px;
+  border-radius:10px;
+  
+}
+
+#leaderboard{
+  width:100%;
+  text-align:center;
+  table-layout: fixed;
+}
+
+#lh-header{
+  text-align:center;
+  column-span: all;
+  padding-top:0;
+}
+
+td{
+  text-align:center;
+}
+
+#medal-1{
+  margin:0 auto;
+  height:40px;
+  width:40px;
+  line-height: 40px;
+  border:2px solid rgb(201, 174, 24);
+  border-radius:25px;
+  font-size:32px;
+  color:rgb(201, 174, 24);
+}
+
+#medal-2{
+  margin:0 auto;
+  height:40px;
+  width:40px;
+  line-height: 40px;
+  border:2px solid rgb(126, 126, 126);
+  border-radius:25px;
+  font-size:32px;
+  color:rgb(126, 126, 126);
+}
+
+#medal-3{
+  margin:0 auto;
+  height:40px;
+  width:40px;
+  line-height: 40px;
+  border:2px solid rgb(133, 102, 45);
+  border-radius:25px;
+  font-size:32px;
+  color:rgb(133, 102, 45);
+}
+
+#medal-4{
+  margin:0 auto;
+  height:40px;
+  width:40px;
+  line-height: 40px;
+  border:2px solid black;
+  border-radius:25px;
+  font-size:32px;
+}
+
+.sm-text{
+  font-size:28px;
+}
